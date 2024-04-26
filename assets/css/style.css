@@ -16,6 +16,10 @@ body {
     padding: 0;
 }
 
+#main-homepage-content {
+    font-family: Poppins, sans-serif;
+}
+
 /* Carousel */
 .carousel-recipe-highlights {
      float: left;
@@ -23,6 +27,46 @@ body {
      height: 500px;
      object-fit: cover;
 }
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:  #EE6451;
+    --bs-btn-border-color:  #EE6451;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg:  #EE6451;
+    --bs-btn-hover-border-color:  #EE6451;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg:  #EE6451;
+    --bs-btn-active-border-color:  #EE6451;
+    --bs-btn-active-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.5);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg:  #EE6451;
+    --bs-btn-disabled-border-color:  #EE6451;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.carousel-control-next-icon {
+    background-color: #EE6451;
+    border: 2px solid #EE6451;
+    border-radius: 50%;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.carousel-control-prev-icon {
+    background-color: #EE6451;
+    border: 2px solid #EE6451;
+    border-radius: 50%;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+
 
 /* Divider block */
 .divider-block {
