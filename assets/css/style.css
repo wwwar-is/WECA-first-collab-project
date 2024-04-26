@@ -15,3 +15,18 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/*Images for Recipes*/
+
+.h2 {
+    display: flex;
+    justify-self: center;
+}
+
+#flam-img {
+    background-image: url('../images/Flamiche.jpg');
+    height: 50vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center 77%;
+}
