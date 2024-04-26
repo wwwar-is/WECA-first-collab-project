@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Google Fonts */
 /* Kalam */
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
@@ -13,3 +14,9 @@ nav {
 
 
 
+=======
+body {
+    margin: 0;
+    padding: 0;
+}
+>>>>>>> main
