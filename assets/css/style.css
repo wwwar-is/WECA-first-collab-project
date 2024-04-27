@@ -92,3 +92,11 @@ nav {
     background-color: black;
     width: 10%;  
 }
+
+
+/* Footer */
+
+footer {
+    font-family: Kalam, sans-serif;
+    background-color: #EE6451;
+}
