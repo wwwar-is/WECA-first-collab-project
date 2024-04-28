@@ -121,3 +121,128 @@ footer div a:hover {
     background-color: #fff;
     color: #EE6451;
 }
+
+/* Recipe Gallery */
+
+#recipe-navigation {
+    background-color: #fff;
+}
+
+.recipe-images {
+    float: left;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*Images for Recipes*/
+
+.h2 {
+    display: flex;
+    justify-self: center;
+}
+
+#flam-img {
+    background-image: url('../images/Flamiche.jpg') !important;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center 77%;
+}
+
+#SteakHache {
+    background-image: url('../images/SteakHache.jpg') !important;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center 77%;
+}
+
+#Macrons {
+    background-image: url('../images/Macrons.jpg') !important;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center 1;
+}
+
+#meatballs {
+    background-image: url('../images/Meatballs.jpg') !important;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#spicypizza {
+    background-image: url('../images/SpicyPizza.jpg') !important;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Carbonara {
+    background-image: url('../images/Carbonara.jpg') !important;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Okonomiyaki {
+    background-image: url('../images/Okonomiyaki.jpg') !important;
+height: 50vh;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#sushi {
+background-image: url('../images/Sushi.jpg') !important;
+height: 50vh;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#wakame {
+background-image: url('../images/Seaweed.png') !important;
+height: 50vh;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+/*--padding and positioning for recipe elements--*/
+.description-styles {
+    padding: 4vh 1vh;
+}
+
+.freeze-veg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.recipe-title {
+    margin-top: 4vh;
+}
+
+#meatballs-less-padding-on-text {
+    padding: 0;
+}
+
+#pizza-more-padding-on-text {
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+}
+
+#carbonara-less-padding-on-text {
+    padding-top: 0;
+    padding-bottom: 1vh;
+}
+
+/*--colour for recipe items--*/
+
+.nut-box {
+    background-color: rgba(179, 252, 212, 0.4)
+
+}
+
+
+
+
+
+
+
