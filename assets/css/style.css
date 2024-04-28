@@ -26,7 +26,32 @@ body {
 #flam-img {
     background-image: url('../images/Flamiche.jpg');
     height: 50vh;
-    width:100%;
+    /* width:100%; */
     background-repeat: no-repeat;
     background-position: center 77%;
 }
+
+/*--padding and positioning for recipe elements--*/
+.text-padding {
+    padding: 4vh 2vh;
+}
+
+.freeze-veg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*--colour for recipe items--*/
+
+.nut-box {
+    background-color: rgba(179, 252, 212, 0.4)
+
+}
+
+
+
+
+
+
+

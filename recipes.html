@@ -9,16 +9,17 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" type="image/ico" href="assets/favicon/favicon.ico">
-    <!--Font Awesome icons-->
-    <script src="https://kit.fontawesome.com/afced6604b.js" crossorigin="anonymous"></script>
+     <!--Font Awesome icons-->
+     <script src="https://kit.fontawesome.com/afced6604b.js" crossorigin="anonymous"></script>
     <!-- Title -->
     <title>The Ugly Whisk</title>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
-            <a href="index.html" class="navbar-brand">
-                <span class="fw-bold text-white">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand pt-3">
+                <span class="fw-bolder h1 text-white">
                     The Ugly Whisk
                 </span>
             </a>
@@ -27,55 +28,109 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Navbar Links -->
-            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end align-center h4 pt-2 text-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active text-white">Home</a>
+                        <a href="index.html" class="nav-link active text-white">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">Recipes</a>
+                        <a href="recipe-gallery.html" class="nav-link text-white">Recipes</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">Contact Us</a>
+                        <a href="contact.html" class="nav-link text-white">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Main content -->
-    <article class="container-md">
+    <!--Image and info-->
+    <div class="container container-padding">
     <div class="row">
         <div class="col-12">
             <h2>Flamiche</h2>
         </div>
     </div>
-    <div class="row">
-        <div class="col-4">
-            <div id="flam-img"></div>
-        </div>
-        <div class="col-8">
-            <div class="row">
-            <div class="col-4-md col-12-sm">
-            <i class="fa-regular fa-clock"></i> 
-            <br>
-            <p> Prep: 35min <br> Cook: 30min </p>
+        <div class="row">
+            <div class="col-sm-4" id="flam-img">
             </div>
-            <div class="col-4-md col-12-sm">
-                <i class="fa-solid fa-kitchen-set"></i>
+            <div class="col-sm-8">
+        <div class="row">
+            <div class="col-12 col-sm-4"><i class="fa-regular fa-clock"></i> 
                 <br>
-                <p> Easy</p>
-            </div>
-            <div class="col-4-md col-12-sm">
-                <i class="fa-solid fa-utensils"></i>
+                <p> Prep: 35min <br> Cook: 30min </p>
+                </div>
+            
+            <div class="col-12 col-sm-4"><i class="fa-solid fa-kitchen-set"></i>
                 <br>
-                <p>Serves 2</p>
-            </div>
+                <p> Easy</p></div>
+            <div class="col-12 col-sm-4"><i class="fa-solid fa-utensils"></i>
+                <br>
+                <p>Serves 2</p></div>
         </div>
+        <div class="row text-padding">
+            <p>Try this French dish that's halfway between a pizza and a 
+                quiche. Crème fraîche mixed with cheese and eggs 
+                makes a tasty topping along with delicious buttery leeks</p>
+        </div>
+        <div class="row freeze-veg">
+            <div class="col-6">
+                <i class="fa-solid fa-snowflake"></i>
+                <p>Freezable</p>
+            </div>
+                <div class="col-6">
+                    <i class="fa-solid fa-v"></i><p>Vegetarian</p>
+                </div>
+            </div>
         </div>
     </div>
+    </div> 
+</div>
+
+<!--Nutrition-->
+
+<div class="container">
+    <h6 id="nut-heading">Nutrition</h6>
+    <div class="row">
+    <div class="col-lg-1 col-4 nut-box">
+        kcal <br> <b>637</b>
+    </div>
+    <div class="col-lg-1 col-4 nut-box">
+        Fat <br> <b>37g</b>
+    </div>
+    <div class="col-lg-1 col-4 nut-box">
+        Saturates <br> <b>20g</b>
+    </div>
+    <div class="col-lg-1 col-4 nut-box">
+       Carbs  <br> <b>52g</b>
+    </div>
+    <div class="col-lg-1 col-4 nut-box">
+        Sugars <br> <b>4g</b>
+    </div>
+    <div class="col-lg-1 col-4 nut-box">
+        Fibre <br> <b>6g</b>
+    </div>
+    <div class="col-lg-1 col-4 nut-box">
+        Protein <br> <b>22g</b>
+    </div>
+    <div class="col-lg-1 col-4 nut-box">
+        Salt <br> <b>1.7g</b>
+    </div>
+    <div class="col-lg-1 col-4 nut-box">
+        Taste <br> <b>100%</b>
+    </div>
+</div>
+</div>
+
+<div class="container">
+    <div class="row"></div>
+</div>
+
+
         
-    </article>
     <!-- Footer -->
 
+    <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
