@@ -93,6 +93,18 @@ nav {
     width: 10%;  
 }
 
+/* Recipe Gallery */
+
+#recipe-navigation {
+    background-color: #fff;
+}
+
+.recipe-images {
+    float: left;
+    height: 200px;
+    object-fit: cover;
+}
+
 /*Images for Recipes*/
 
 .h2 {
