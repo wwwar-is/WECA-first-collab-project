@@ -115,20 +115,93 @@ nav {
 #flam-img {
     background-image: url('../images/Flamiche.jpg');
     height: 50vh;
-    /* width:100%; */
     background-repeat: no-repeat;
     background-position: center 77%;
 }
 
+#SteakHache {
+    background-image: url('../images/SteakHache.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center 77%;
+}
+
+#Macrons {
+    background-image: url('../images/Macrons.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center 1;
+}
+
+#meatballs {
+    background-image: url('../images/Meatballs.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#spicypizza {
+    background-image: url('../images/SpicyPizza.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Carbonara {
+    background-image: url('../images/Carbonara.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Okonomiyaki {
+    background-image: url('../images/Okonomiyaki.jpg');
+height: 50vh;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#sushi {
+background-image: url('../images/Sushi.jpg');
+height: 50vh;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#wakame {
+background-image: url('../images/Seaweed.png');
+height: 50vh;
+background-repeat: no-repeat;
+background-position: center;
+}
+
 /*--padding and positioning for recipe elements--*/
-.text-padding {
-    padding: 4vh 2vh;
+.description-styles {
+    padding: 4vh 1vh;
 }
 
 .freeze-veg {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.recipe-title {
+    margin-top: 4vh;
+}
+
+#meatballs-less-padding-on-text {
+    padding: 0;
+}
+
+#pizza-more-padding-on-text {
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+}
+
+#carbonara-less-padding-on-text {
+    padding-top: 0;
+    padding-bottom: 1vh;
 }
 
 /*--colour for recipe items--*/
