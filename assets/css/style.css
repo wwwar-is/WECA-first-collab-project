@@ -41,10 +41,10 @@ nav {
 
 /* Carousel */
 .carousel-recipe-highlights {
-     float: left;
-     width:  100px;
-     height: 500px;
-     object-fit: cover;
+    float: left;
+    width:  100px;
+    height: 500px;
+    object-fit: cover;
 }
 
 .btn-primary {
@@ -85,12 +85,41 @@ nav {
     padding: 20px;
 }
 
+/* Main content */
 
+#main-content {
+    background-color: #EEEFE6;
+}
+
+article i {
+    color: #EE6451;
+    padding-right: 5px;
+}
 
 /* Divider block */
 .divider-block {
-    background-color: black;
-    width: 10%;  
+    border: 3px solid rgba(238, 100, 81, 1);
+    background-color: rgba(238, 100, 81, 1);
+    border-radius: 5px;
+    width: 40%;
+    opacity: 1;
+}
+
+/* Footer */
+
+footer {
+    background-color: #EE6451;
+    font-family: Kalam, sans-serif;
+    color: #fff;
+}
+
+footer div a {
+    color: #fff;
+}
+
+footer div a:hover {
+    background-color: #fff;
+    color: #EE6451;
 }
 
 /* Recipe Gallery */
