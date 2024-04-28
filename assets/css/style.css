@@ -93,10 +93,16 @@ nav {
     width: 10%;  
 }
 
-/*display none*/
+/* Recipe Gallery */
 
-.displaynone {
-    display: none;
+#recipe-navigation {
+    background-color: #fff;
+}
+
+.recipe-images {
+    float: left;
+    height: 200px;
+    object-fit: cover;
 }
 
 /*Images for Recipes*/
@@ -201,30 +207,8 @@ background-position: center;
 /*--colour for recipe items--*/
 
 .nut-box {
-    background-color: rgba(179, 252, 212, 0.4);
-    border: 2px solid white;
-}
+    background-color: rgba(179, 252, 212, 0.4)
 
-/*display with checkboxes*/
-
-frenchcheck:checked ~ .french {
-        display: block !important;
-}
-
-italiancheck:checked ~ .italian {
-    display: block !important;
-}
-
-japanesecheck:checked ~ .japanese {
-    display: block !important;
-}
-
-vegetariancheck:checked ~ .veg {
-    display: block !important;
-}
-
-meatcheck:checked ~ .meat {
-    display: block !important;
 }
 
 
